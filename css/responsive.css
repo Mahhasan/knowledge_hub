@@ -1,0 +1,55 @@
+/* CSS for responsive design */
+@media (max-width: 399.98px) {
+    .knowledge-section .forum-item .content {
+        display: block;
+      }
+}
+@media (max-width: 575.98px) {
+    .forum-slider .slider-item .item-header h3 {
+        font-size: 30px;
+        line-height: 46px;
+        font-weight: 700;
+      }
+      .forum-slider .slider-item .item-footer h6 {
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 600;
+      }
+      .forum-slider .slider-item .item-footer h5 {
+        font-size: 22px;
+      }
+      .footer {
+        padding-left: 25px;
+      }
+}
+@media (max-width: 767.98px) {
+    .banner-section .banner-caption h1 {
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 48px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .knowledge-section .forum-item .content h5 {
+        font-size: 18px;
+    }
+      .knowledge-section .forum-item .content h6 {
+        font-size: 15px;
+    }
+    .featured .featured-item .content {
+        padding: 48px 6px;
+    }
+    .featured .featured-item .item-header h3 {
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .search-container {
+        width: 600px; /* Adjust the maximum width as needed */
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .featured .featured-item .content {
+        padding: 48px 6px;
+      }
+}

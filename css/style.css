@@ -1,0 +1,375 @@
+/* Common CSS */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.section-header-wrapper {
+  padding-bottom: 72px;
+  text-align: center;
+}
+.section-header h2 {
+  font-size: 42px;
+  color: #00123E;
+  font-weight: 700;
+  line-height: 41px;
+  font-family: "Poppins";
+  margin-bottom: 0px;
+}
+.section-header h3 {
+  font-size: 28px;
+  color: #00123E;
+  font-weight: 700;
+  line-height: 41px;
+  font-family: "Poppins";
+  margin-bottom: 0px;
+}
+.block-button {
+  font-size: 24px;
+  border-radius: 50px;
+  padding: 26px 28px;
+  color: #FFFFFF;
+  background-color: #0D4DA2;
+  display: inline-block;
+  font-family: "Poppins";
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 51px;
+  text-align: center;
+  transition: border 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+.block-button:hover {
+  color: #fdaf1e;
+}
+
+/*CSS for Banner Section*/
+.banner-section {
+  background-color: #004AAD;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  min-height: 500px;
+}
+.banner-section .banner-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 700px;
+}
+.banner-section .banner-logo img {
+  max-width: 220px;
+  max-height: 100%;
+}
+.banner-section .banner-caption {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.banner-section .banner-caption h1{
+  font-size: 48px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 71px;
+  margin: 0 auto;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.search-container .search-input-container {
+  position: relative;
+  flex: 1;
+}
+.search-input-container .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 24px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 28px;
+}
+.search-input-container .search-input {
+  width: 100%;
+  height: 64px;
+  padding: 8px 30px 8px 64px;
+  border: 1px solid #004AAD;
+  border-radius: 32px;
+  outline: none;
+  background-color: #ffffff;
+  font-size: 24px;
+  color: #333333;;
+}
+#searchOption {
+  max-height: 200px;
+  overflow-y: auto;
+  flex: fit-content;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.modal-content .btn.btn-warning {
+height: 30px;
+width: 30px;
+padding: 0px;
+margin-left: 3px;
+}
+.modal-content .form-control {
+height: 52px !important;
+background: #fff !important;
+color: #333333 !important;
+font-size: 18px;
+border-radius: 0px;
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
+border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.search-result {
+padding-top: 15px;
+border-bottom: 1px solid #ececec;
+}
+.search-result a{
+text-decoration: none;
+}
+.search-result h3 {
+font-size: 18px;
+color: #1155CC;
+margin-bottom: 10px;
+}
+.search-result h5 {
+font-size: 14px;
+color: #009933;
+
+}
+.search-result p {
+font-size: 14px;
+color: #333333;
+line-height: 20px;
+}
+/* Forum Slider */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.forum-slider .slider-item {
+  background-color: #EFEFEF;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 84px;
+  padding: 92px 50px;
+  text-align: center;
+}
+.forum-slider .slider-item .item-header {
+  /* max-width: 500px; */
+  margin-bottom: 60px;
+  text-align: center;
+}
+.forum-slider .slider-item .item-header h3 {
+  font-size: 32px;
+  line-height: 48px;
+  color: #00123E;
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-family: "Poppins";
+}
+.forum-slider .slider-item .item-footer h5 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #00123E;
+  font-weight: 400;
+  margin-bottom: 14px;
+  font-family: "Poppins";
+}
+.forum-slider .slider-item .item-footer h6 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #00123E;
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-family: "Poppins";
+}
+/* Main Section */
+.knowledge-section .section-header-wrapper {
+  padding-bottom: 40px;
+}
+.knowledge-section .forum-item {
+  background-color: #EFEFEF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 32px;
+  padding: 24px 18px;
+  border-radius: 72px; 
+}
+.knowledge-section .forum-item .content {
+   /* flex: 1; */
+   margin-left: 16px;
+}
+.knowledge-section .forum-item .content h5 {
+  color: #000;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+.knowledge-section .forum-item .content h6 {
+  color: #000;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  font-family: "Poppins";
+}
+.knowledge-section .hub-highlights {
+  margin-bottom: 72px;
+}
+.hub-highlights .highlights-item {
+  background-color: #0D4DA2;
+  border-radius: 64px;
+  text-align: center;
+  padding: 64px 20px;
+}
+.hub-highlights .highlights-item .content {
+  text-align: center;
+  padding: 18px;
+}
+.hub-highlights .highlights-item .content  h6 {
+  color: #e6e6e6;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  font-family: "Poppins";
+}
+.hub-highlights .highlights-item .content  h5 {
+  color: #FFFFFF;
+  font-size: 32px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  font-family: "Source Serif Pro";
+}
+.featured .featured-item .content{
+  background-color: #EFEFEF;
+  border-radius: 64px;
+  padding: 48px 43px;
+  margin-bottom: 38px;
+  text-align: center;
+}
+.featured .featured-item .item-header {
+  margin-bottom: 38px;
+  text-align: center;
+}
+.featured .featured-item .item-header h3 {
+  font-size: 22px;
+  line-height: 32px;
+  color: #00123E;
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-family: "Poppins";
+}
+.featured .featured-item .item-footer h5 {
+  font-size: 18px;
+  line-height: 32px;
+  color: #00123E;
+  font-weight: 400;
+  margin-bottom: 0px;
+  font-family: "Poppins";
+}
+.featured .featured-item .item-footer h6 {
+  font-size: 16px;
+  line-height: 32px;
+  color: #00123E;
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-family: "Poppins";
+}
+.chatbot-button {
+  font-size: 14px;
+  border-radius: 50px;
+  padding: 28px 18px;
+  color: #FFFFFF;
+  background-color: #0D4DA2;
+  display: inline-block;
+  font-family: "Poppins";
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  transition: border 0.3s ease-in-out, color 0.3s ease-in-out;
+  max-width: 100px;
+  }
+.chatbot-button:hover {
+  color: #fdaf1e;
+}
+/*CSS for Footer Section */
+.footer {
+  background-color: #1E1E1E;
+  padding-top: 61px;
+  padding-bottom: 101px;
+}
+.footer .footer-logo img {
+  max-width: 221px;
+  max-height: auto;
+}
+.footer .footer-caption {
+  margin-top: 25px;
+  color: #fff;
+}
+.footer .footer-caption h2{
+  font-size: 36px;
+  line-height: 48px;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-family: "Poppins";
+}
+.footer .important-link {
+  margin-top: 32px;
+}
+.footer .important-link h5 {
+  font-size: 22px;
+  line-height: 28px;
+  color: #e6e6e6;
+  font-weight: 500;
+  margin-bottom: 24px;
+  font-family: "Poppins";
+}
+.footer .important-link ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer .important-link ul li {
+  margin-top: 15px;
+}
+.footer .important-link ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 27px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+.footer .important-link ul li a:hover{
+  color: #fdaf1e;
+}
